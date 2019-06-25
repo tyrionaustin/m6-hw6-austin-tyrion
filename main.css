@@ -1,8 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  background-image: url('images/foodbg.jpg');
+  background-size: cover;
+}
+
+header {
+  background-color: pink;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+}
+
 h1 {
   font-weight: 100;
 }
+
+p {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+
+}
+
 .big-and-bold {
   font-size: 48px;
   font-weight: 400;
   transition: all 3s;
+  color: red;
+}
+
+button {
+  background-color: pink;
+  border: black 2px solid;
+  border-radius: 5px;
 }
