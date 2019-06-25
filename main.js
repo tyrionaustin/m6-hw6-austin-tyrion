@@ -8,7 +8,7 @@ lunchItemWrapper.appendChild(ourRandomLunchItem);
 var placeholderText = document.createTextNode('');
 ourRandomLunchItem.appendChild(placeholderText);
 
-var lunchItems = ['Mexican Food', 'Sushi', 'Chicken Wings', 'Pizza', 'Greek Food', 'Subs or Sandwiches']
+var lunchItems = ['Mexican Food', 'Sushi', 'Chicken Wings', 'Pizza', 'Greek Food', 'Subs or Sandwiches', 'Lobster Mac and Cheese', 'Chinese Food', 'Spaghetti and Meatballs', 'Seafood', 'Salad', 'Soup', 'Loaded Mashed Potatoes', 'Chili Cheese Fries', 'Steak and Potatoes']
 
 var myFunction = function() {
   lunchItems.sort(function(a, b){return 0.5 - Math.random()});
